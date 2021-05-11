@@ -1,0 +1,16 @@
+E:\COSTIN\visual studio\repos\DanVasii\atestat\atestat\bin\Debug\netcoreapp3.1\atestat.exe
+E:\COSTIN\visual studio\repos\DanVasii\atestat\atestat\bin\Debug\netcoreapp3.1\atestat.deps.json
+E:\COSTIN\visual studio\repos\DanVasii\atestat\atestat\bin\Debug\netcoreapp3.1\atestat.runtimeconfig.json
+E:\COSTIN\visual studio\repos\DanVasii\atestat\atestat\bin\Debug\netcoreapp3.1\atestat.runtimeconfig.dev.json
+E:\COSTIN\visual studio\repos\DanVasii\atestat\atestat\bin\Debug\netcoreapp3.1\atestat.dll
+E:\COSTIN\visual studio\repos\DanVasii\atestat\atestat\bin\Debug\netcoreapp3.1\atestat.pdb
+E:\COSTIN\visual studio\repos\DanVasii\atestat\atestat\obj\Debug\netcoreapp3.1\atestat.csprojAssemblyReference.cache
+E:\COSTIN\visual studio\repos\DanVasii\atestat\atestat\obj\Debug\netcoreapp3.1\atestat.Form1.resources
+E:\COSTIN\visual studio\repos\DanVasii\atestat\atestat\obj\Debug\netcoreapp3.1\atestat.Properties.Resources.resources
+E:\COSTIN\visual studio\repos\DanVasii\atestat\atestat\obj\Debug\netcoreapp3.1\atestat.csproj.GenerateResource.cache
+E:\COSTIN\visual studio\repos\DanVasii\atestat\atestat\obj\Debug\netcoreapp3.1\atestat.AssemblyInfoInputs.cache
+E:\COSTIN\visual studio\repos\DanVasii\atestat\atestat\obj\Debug\netcoreapp3.1\atestat.AssemblyInfo.cs
+E:\COSTIN\visual studio\repos\DanVasii\atestat\atestat\obj\Debug\netcoreapp3.1\atestat.csproj.CoreCompileInputs.cache
+E:\COSTIN\visual studio\repos\DanVasii\atestat\atestat\obj\Debug\netcoreapp3.1\atestat.dll
+E:\COSTIN\visual studio\repos\DanVasii\atestat\atestat\obj\Debug\netcoreapp3.1\atestat.pdb
+E:\COSTIN\visual studio\repos\DanVasii\atestat\atestat\obj\Debug\netcoreapp3.1\atestat.genruntimeconfig.cache
