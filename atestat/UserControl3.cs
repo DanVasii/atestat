@@ -8,21 +8,14 @@ using System.Windows.Forms;
 
 namespace atestat
 {
-    public partial class UCElev : UserControl
+    public partial class UCtest : UserControl
     {
-        
-
-        public UCElev()
+        public UCtest()
         {
             InitializeComponent();
         }
 
-        private void UCElev_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label1_Click(object sender, EventArgs e)
+        private void UCtest_Load(object sender, EventArgs e)
         {
 
         }

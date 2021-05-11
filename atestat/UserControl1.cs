@@ -54,9 +54,10 @@ namespace atestat
 
         private void btnLogin_Click(object sender, EventArgs e)
         {
+            UCtest ucc = new UCtest();
             UCElev uc = new UCElev();
-            uc.Dock = DockStyle.Fill;
-            panel1.Controls.Add(uc);
+            ucc.Dock = DockStyle.Fill;
+            panel1.Controls.Add(ucc);
 
             //string correctUser = "gigi";
            // string correctPass = "1234";
@@ -70,7 +71,7 @@ namespace atestat
                 panel1.Controls["UCElev"].BringToFront();
             }*/
 
-            panel1.Controls["UCElev"].BringToFront();
+            panel1.Controls["UCtest"].BringToFront();
         }
     }
 }

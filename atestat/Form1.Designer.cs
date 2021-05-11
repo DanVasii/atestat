@@ -71,7 +71,7 @@ namespace atestat
             this.splitContainer1.Panel2.Controls.Add(this.btnElev);
             this.splitContainer1.Panel2.Controls.Add(this.pictureBox2);
             this.splitContainer1.Panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.splitContainer1_Panel2_Paint);
-            this.splitContainer1.Size = new System.Drawing.Size(984, 525);
+            this.splitContainer1.Size = new System.Drawing.Size(984, 535);
             this.splitContainer1.SplitterDistance = 492;
             this.splitContainer1.TabIndex = 0;
             // 
@@ -84,7 +84,7 @@ namespace atestat
             this.btnProf.FlatAppearance.BorderSize = 0;
             this.btnProf.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnProf.Font = new System.Drawing.Font("Arial", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnProf.Location = new System.Drawing.Point(173, 235);
+            this.btnProf.Location = new System.Drawing.Point(173, 252);
             this.btnProf.Name = "btnProf";
             this.btnProf.OnHoverBorderColor = System.Drawing.Color.Gray;
             this.btnProf.OnHoverButtonColor = System.Drawing.Color.Yellow;
@@ -102,7 +102,7 @@ namespace atestat
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
             this.pictureBox1.Location = new System.Drawing.Point(0, 0);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(492, 525);
+            this.pictureBox1.Size = new System.Drawing.Size(492, 535);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
@@ -116,7 +116,7 @@ namespace atestat
             this.btnElev.ButtonColor = System.Drawing.Color.Red;
             this.btnElev.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnElev.Font = new System.Drawing.Font("Arial", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnElev.Location = new System.Drawing.Point(173, 235);
+            this.btnElev.Location = new System.Drawing.Point(173, 252);
             this.btnElev.Name = "btnElev";
             this.btnElev.OnHoverBorderColor = System.Drawing.Color.Gray;
             this.btnElev.OnHoverButtonColor = System.Drawing.Color.Yellow;
@@ -134,7 +134,7 @@ namespace atestat
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
             this.pictureBox2.Location = new System.Drawing.Point(0, 0);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(488, 525);
+            this.pictureBox2.Size = new System.Drawing.Size(488, 535);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox2.TabIndex = 0;
             this.pictureBox2.TabStop = false;
@@ -142,31 +142,35 @@ namespace atestat
             // 
             // pnlMare
             // 
+            this.pnlMare.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.pnlMare.BackColor = System.Drawing.Color.Transparent;
             this.pnlMare.Controls.Add(this.splitContainer1);
-            this.pnlMare.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.pnlMare.Location = new System.Drawing.Point(0, 34);
+            this.pnlMare.Location = new System.Drawing.Point(0, 25);
             this.pnlMare.Margin = new System.Windows.Forms.Padding(0);
             this.pnlMare.Name = "pnlMare";
-            this.pnlMare.Size = new System.Drawing.Size(984, 525);
+            this.pnlMare.Size = new System.Drawing.Size(984, 535);
             this.pnlMare.TabIndex = 1;
             // 
             // ctrlPanel
             // 
-            this.ctrlPanel.BackColor = System.Drawing.Color.Transparent;
+            this.ctrlPanel.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.ctrlPanel.BackColor = System.Drawing.Color.DarkGray;
             this.ctrlPanel.Controls.Add(this.backButton);
             this.ctrlPanel.Controls.Add(this.exitButton);
-            this.ctrlPanel.Dock = System.Windows.Forms.DockStyle.Top;
             this.ctrlPanel.Location = new System.Drawing.Point(0, 0);
             this.ctrlPanel.Margin = new System.Windows.Forms.Padding(0);
             this.ctrlPanel.Name = "ctrlPanel";
-            this.ctrlPanel.Size = new System.Drawing.Size(984, 39);
+            this.ctrlPanel.Size = new System.Drawing.Size(984, 25);
             this.ctrlPanel.TabIndex = 2;
+            this.ctrlPanel.MouseDown += new System.Windows.Forms.MouseEventHandler(this.ctrlPanel_MouseDown);
             // 
             // backButton
             // 
             this.backButton.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.backButton.Location = new System.Drawing.Point(4, 8);
+            this.backButton.Location = new System.Drawing.Point(4, 1);
             this.backButton.Name = "backButton";
             this.backButton.Size = new System.Drawing.Size(75, 23);
             this.backButton.TabIndex = 1;
@@ -175,11 +179,13 @@ namespace atestat
             // 
             // exitButton
             // 
-            this.exitButton.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.exitButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.exitButton.Dock = System.Windows.Forms.DockStyle.Right;
+            this.exitButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.exitButton.Image = global::atestat.Properties.Resources.delete_48px;
-            this.exitButton.Location = new System.Drawing.Point(928, 8);
+            this.exitButton.Location = new System.Drawing.Point(960, 0);
             this.exitButton.Name = "exitButton";
-            this.exitButton.Size = new System.Drawing.Size(48, 23);
+            this.exitButton.Size = new System.Drawing.Size(24, 25);
             this.exitButton.TabIndex = 0;
             this.exitButton.UseVisualStyleBackColor = true;
             this.exitButton.Click += new System.EventHandler(this.exitButton_Click);

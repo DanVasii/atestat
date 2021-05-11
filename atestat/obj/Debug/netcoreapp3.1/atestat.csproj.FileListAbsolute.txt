@@ -32,3 +32,4 @@ E:\COSTIN\visual studio\repos\atestat\atestat\obj\Debug\netcoreapp3.1\atestat.pd
 E:\COSTIN\visual studio\repos\atestat\atestat\obj\Debug\netcoreapp3.1\atestat.genruntimeconfig.cache
 E:\COSTIN\visual studio\repos\atestat\atestat\obj\Debug\netcoreapp3.1\atestat.UCLoginElev.resources
 E:\COSTIN\visual studio\repos\atestat\atestat\obj\Debug\netcoreapp3.1\atestat.UCElev.resources
+E:\COSTIN\visual studio\repos\atestat\atestat\obj\Debug\netcoreapp3.1\atestat.UCtest.resources
