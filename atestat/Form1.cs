@@ -8,30 +8,66 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-
-// test test test
-
 namespace atestat
 {
     public partial class Form1 : Form
     {
+        static Form1 _obj;
+
+        public static Form1 Instance
+        {
+            get
+            {
+                if (_obj == null)
+                {
+                    _obj = new Form1();
+                }
+                return _obj;
+            }
+        }
+
+        public Panel PnlContainer
+        {
+            get { return pnlMare; }
+            set { pnlMare = value; }
+            
+        }
+
+        public Button BackButton
+        {
+            get { return backButton; }
+            set { backButton = value; }
+        }
+
         public Form1()
         {
             InitializeComponent();
+            
         }
         private void Form1_Load(object sender,EventArgs e)
         {
+            splitContainer1.Parent = pnlMare;
+            pictureBox1.Parent = splitContainer1.Panel1;
+            pictureBox2.Parent = splitContainer1.Panel2;
 
             
-            button_woc1.Parent = pictureBox2;
-            button_woc1.BackColor = Color.Transparent;
-            button_woc1.FlatAppearance.BorderSize = 0;
-            button_woc1.FlatAppearance.MouseOverBackColor = Color.Transparent;
+            btnElev.Parent = pictureBox2;
+            btnElev.BackColor = Color.Transparent;
+            btnElev.FlatAppearance.BorderSize = 0;
+            btnElev.FlatAppearance.MouseOverBackColor = Color.Transparent;
 
-            button_woc2.Parent = pictureBox1;
-            button_woc2.BackColor = Color.Transparent;
-            button_woc2.FlatAppearance.BorderSize = 0;
-            button_woc2.FlatAppearance.MouseOverBackColor = Color.Transparent;
+            btnProf.Parent = pictureBox1;
+            btnProf.BackColor = Color.Transparent;
+            btnProf.FlatAppearance.BorderSize = 0;
+            btnProf.FlatAppearance.MouseOverBackColor = Color.Transparent;
+
+            backButton.Visible = false;
+
+            _obj = this;
+            UCLoginElev uc = new UCLoginElev();
+            uc.Dock = DockStyle.Fill;
+            pnlMare.Controls.Add(uc);
+
         }
         private void splitContainer1_Panel1_Paint(object sender, PaintEventArgs e)
         {
@@ -48,22 +84,7 @@ namespace atestat
 
         }
 
-        private void button1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button2_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void pictureBox2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button1_Click_1(object sender, EventArgs e)
         {
 
         }
@@ -73,29 +94,36 @@ namespace atestat
 
         }
 
-        private void button2_Click_1(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button1_Click_2(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button_woc1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button_woc2_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void pictureBox1_Click_1(object sender, EventArgs e)
         {
 
+        }
+
+        private void pictureBox1_Click_2(object sender, EventArgs e)
+        {
+
+        }
+        
+        private void btnProf_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnElev_Click(object sender, EventArgs e)
+        {
+            pnlMare.Controls["UCLoginElev"].BringToFront();
+            backButton.Visible = true;
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            ctrlPanel.Controls["UCLoginElev"].SendToBack();
+            backButton.Visible = false;
+        }
+
+        private void exitButton_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
         }
     }
 }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\COSTIN\\visual studio\\repos\\DanVasii\\atestat\\atestat\\atestat.csproj": {}
+    "E:\\COSTIN\\visual studio\\repos\\atestat\\atestat\\atestat.csproj": {}
   },
   "projects": {
-    "E:\\COSTIN\\visual studio\\repos\\DanVasii\\atestat\\atestat\\atestat.csproj": {
+    "E:\\COSTIN\\visual studio\\repos\\atestat\\atestat\\atestat.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\COSTIN\\visual studio\\repos\\DanVasii\\atestat\\atestat\\atestat.csproj",
+        "projectUniqueName": "E:\\COSTIN\\visual studio\\repos\\atestat\\atestat\\atestat.csproj",
         "projectName": "atestat",
-        "projectPath": "E:\\COSTIN\\visual studio\\repos\\DanVasii\\atestat\\atestat\\atestat.csproj",
+        "projectPath": "E:\\COSTIN\\visual studio\\repos\\atestat\\atestat\\atestat.csproj",
         "packagesPath": "C:\\Users\\COSTIN\\.nuget\\packages\\",
-        "outputPath": "E:\\COSTIN\\visual studio\\repos\\DanVasii\\atestat\\atestat\\obj\\",
+        "outputPath": "E:\\COSTIN\\visual studio\\repos\\atestat\\atestat\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\COSTIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
