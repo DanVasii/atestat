@@ -48,7 +48,7 @@ namespace ePOSOne.btnProduct
 
             brush.Dispose();
             brush = new SolidBrush(_isHovering ? _onHoverButtonColor : _buttonColor);
-
+            //test
             //Inner part. Button itself
             g.FillEllipse(brush, _borderThicknessByTwo, _borderThicknessByTwo, Height - _borderThickness,
                 Height - _borderThickness);
