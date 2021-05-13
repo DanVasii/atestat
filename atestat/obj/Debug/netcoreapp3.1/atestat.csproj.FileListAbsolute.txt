@@ -20,7 +20,6 @@ E:\COSTIN\visual studio\repos\atestat\atestat\bin\Debug\netcoreapp3.1\atestat.ru
 E:\COSTIN\visual studio\repos\atestat\atestat\bin\Debug\netcoreapp3.1\atestat.runtimeconfig.dev.json
 E:\COSTIN\visual studio\repos\atestat\atestat\bin\Debug\netcoreapp3.1\atestat.dll
 E:\COSTIN\visual studio\repos\atestat\atestat\bin\Debug\netcoreapp3.1\atestat.pdb
-E:\COSTIN\visual studio\repos\atestat\atestat\obj\Debug\netcoreapp3.1\atestat.csprojAssemblyReference.cache
 E:\COSTIN\visual studio\repos\atestat\atestat\obj\Debug\netcoreapp3.1\atestat.Form1.resources
 E:\COSTIN\visual studio\repos\atestat\atestat\obj\Debug\netcoreapp3.1\atestat.Properties.Resources.resources
 E:\COSTIN\visual studio\repos\atestat\atestat\obj\Debug\netcoreapp3.1\atestat.csproj.GenerateResource.cache
@@ -33,3 +32,4 @@ E:\COSTIN\visual studio\repos\atestat\atestat\obj\Debug\netcoreapp3.1\atestat.ge
 E:\COSTIN\visual studio\repos\atestat\atestat\obj\Debug\netcoreapp3.1\atestat.UCLoginElev.resources
 E:\COSTIN\visual studio\repos\atestat\atestat\obj\Debug\netcoreapp3.1\atestat.UCElev.resources
 E:\COSTIN\visual studio\repos\atestat\atestat\obj\Debug\netcoreapp3.1\atestat.UCtest.resources
+E:\COSTIN\visual studio\repos\atestat\atestat\obj\Debug\netcoreapp3.1\atestat.csprojAssemblyReference.cache

@@ -39,8 +39,8 @@ namespace atestat
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pnlMare = new System.Windows.Forms.Panel();
             this.ctrlPanel = new System.Windows.Forms.Panel();
-            this.backButton = new System.Windows.Forms.Button();
             this.exitButton = new System.Windows.Forms.Button();
+            this.backButton = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel1.SuspendLayout();
             this.splitContainer1.Panel2.SuspendLayout();
@@ -167,16 +167,6 @@ namespace atestat
             this.ctrlPanel.TabIndex = 2;
             this.ctrlPanel.MouseDown += new System.Windows.Forms.MouseEventHandler(this.ctrlPanel_MouseDown);
             // 
-            // backButton
-            // 
-            this.backButton.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.backButton.Location = new System.Drawing.Point(4, 1);
-            this.backButton.Name = "backButton";
-            this.backButton.Size = new System.Drawing.Size(75, 23);
-            this.backButton.TabIndex = 1;
-            this.backButton.Text = "< Back";
-            this.backButton.UseVisualStyleBackColor = true;
-            // 
             // exitButton
             // 
             this.exitButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
@@ -189,6 +179,15 @@ namespace atestat
             this.exitButton.TabIndex = 0;
             this.exitButton.UseVisualStyleBackColor = true;
             this.exitButton.Click += new System.EventHandler(this.exitButton_Click);
+            // 
+            // backButton
+            // 
+            this.backButton.Location = new System.Drawing.Point(0, 2);
+            this.backButton.Name = "backButton";
+            this.backButton.Size = new System.Drawing.Size(75, 23);
+            this.backButton.TabIndex = 1;
+            this.backButton.Text = "button1";
+            this.backButton.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
@@ -234,8 +233,8 @@ namespace atestat
         private ePOSOne.btnProduct.Button_WOC btnProf;
         private System.Windows.Forms.Panel pnlMare;
         private System.Windows.Forms.Panel ctrlPanel;
-        private System.Windows.Forms.Button backButton;
         private System.Windows.Forms.Button exitButton;
+        private System.Windows.Forms.Button backButton;
     }
 }
 

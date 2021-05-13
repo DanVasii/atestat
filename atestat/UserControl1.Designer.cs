@@ -125,7 +125,7 @@ namespace atestat
             this.Font = new System.Drawing.Font("Segoe UI", 25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.Margin = new System.Windows.Forms.Padding(12, 14, 12, 14);
             this.Name = "UCLoginElev";
-            this.Size = new System.Drawing.Size(1000, 535);
+            this.Size = new System.Drawing.Size(1000, 526);
             this.Load += new System.EventHandler(this.UCElev_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
