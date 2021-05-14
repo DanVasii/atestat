@@ -18,25 +18,9 @@ namespace atestat
         }
         private void Form1_Load(object sender,EventArgs e)
         {
-
-            
-            button_woc1.Parent = pictureBox2;
-            button_woc1.BackColor = Color.Transparent;
-            button_woc1.FlatAppearance.BorderSize = 0;
-            button_woc1.FlatAppearance.MouseOverBackColor = Color.Transparent;
-
-            button_woc2.Parent = pictureBox1;
-            button_woc2.BackColor = Color.Transparent;
-            button_woc2.FlatAppearance.BorderSize = 0;
-            button_woc2.FlatAppearance.MouseOverBackColor = Color.Transparent;
-        }
-        private void splitContainer1_Panel1_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void splitContainer1_Panel2_Paint(object sender, PaintEventArgs e)
-        {
+            UserControl1 login_elev = new UserControl1();
+            login_elev.Dock = DockStyle.Fill;
+            panel1.Controls.Add(login_elev);
 
         }
 
@@ -45,54 +29,20 @@ namespace atestat
 
         }
 
-        private void button1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void pictureBox2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button1_Click_1(object sender, EventArgs e)
-        {
-
-        }
-
-        private void pictureBox2_Click_1(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button2_Click_1(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button1_Click_2(object sender, EventArgs e)
-        {
-
-        }
-
         private void button_woc1_Click(object sender, EventArgs e)
         {
-
+            panel1.Controls["UserControl1"].BringToFront();
         }
-
-        private void button_woc2_Click(object sender, EventArgs e)
+        private void Form1_Paint(object sender, PaintEventArgs e)
         {
-
-        }
-
-        private void pictureBox1_Click_1(object sender, EventArgs e)
-        {
-
+            base.OnPaint(e);
+            using (Graphics g = e.Graphics)
+            {
+                var p = new Pen(Color.Black, 3);
+                var point1 = new Point(234, 118);
+                var point2 = new Point(293, 228);
+                g.DrawLine(p, point1, point2);
+            }
         }
     }
 }
