@@ -34,7 +34,7 @@ namespace atestat
             MySqlDataAdapter da = new MySqlDataAdapter(query, conn);
 
             System.Data.DataSet ds = new DataSet();
-            da.Fill(ds, "elevi");
+            da.Fill(ds, "test");
             DataTable dt = ds.Tables["elevi"];
 
             if (dt.Rows.Count==0)
