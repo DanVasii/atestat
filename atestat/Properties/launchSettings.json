@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "atestat": {
+      "commandName": "Project",
+      "sqlDebugging": true,
+      "nativeDebugging": true
+    }
+  }
+}

@@ -59,5 +59,15 @@ namespace atestat.Properties {
                 resourceCulture = value;
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _355_3552023_education_graduation_teacher_university_college_profesor_png_clipart {
+            get {
+                object obj = ResourceManager.GetObject("355-3552023_education-graduation-teacher-university-college-profesor-png-clipart", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
     }
 }
