@@ -83,7 +83,7 @@ namespace atestat
             uc.Dock = DockStyle.Fill;
             pnlMare.Controls.Add(uc);
 
-
+            
         }
 
         private void ctrlPanel_MouseDown(object sender, System.Windows.Forms.MouseEventArgs e)

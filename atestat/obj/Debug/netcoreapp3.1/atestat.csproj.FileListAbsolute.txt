@@ -33,3 +33,12 @@ E:\COSTIN\visual studio\repos\atestat\atestat\obj\Debug\netcoreapp3.1\atestat.UC
 E:\COSTIN\visual studio\repos\atestat\atestat\obj\Debug\netcoreapp3.1\atestat.UCElev.resources
 E:\COSTIN\visual studio\repos\atestat\atestat\obj\Debug\netcoreapp3.1\atestat.UCtest.resources
 E:\COSTIN\visual studio\repos\atestat\atestat\obj\Debug\netcoreapp3.1\atestat.csprojAssemblyReference.cache
+E:\COSTIN\visual studio\repos\atestat\atestat\bin\Debug\netcoreapp3.1\BouncyCastle.Crypto.dll
+E:\COSTIN\visual studio\repos\atestat\atestat\bin\Debug\netcoreapp3.1\Google.Protobuf.dll
+E:\COSTIN\visual studio\repos\atestat\atestat\bin\Debug\netcoreapp3.1\K4os.Compression.LZ4.dll
+E:\COSTIN\visual studio\repos\atestat\atestat\bin\Debug\netcoreapp3.1\K4os.Compression.LZ4.Streams.dll
+E:\COSTIN\visual studio\repos\atestat\atestat\bin\Debug\netcoreapp3.1\K4os.Hash.xxHash.dll
+E:\COSTIN\visual studio\repos\atestat\atestat\bin\Debug\netcoreapp3.1\MySql.Data.dll
+E:\COSTIN\visual studio\repos\atestat\atestat\bin\Debug\netcoreapp3.1\Ubiety.Dns.Core.dll
+E:\COSTIN\visual studio\repos\atestat\atestat\bin\Debug\netcoreapp3.1\Zstandard.Net.dll
+E:\COSTIN\visual studio\repos\atestat\atestat\obj\Debug\netcoreapp3.1\atestat.csproj.CopyComplete
