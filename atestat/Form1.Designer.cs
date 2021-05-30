@@ -123,6 +123,7 @@ namespace atestat
             this.button_woc2.Text = "Elevi";
             this.button_woc2.TextColor = System.Drawing.Color.White;
             this.button_woc2.UseVisualStyleBackColor = true;
+            this.button_woc2.Click += new System.EventHandler(this.button_woc2_Click);
             // 
             // pictureBox2
             // 

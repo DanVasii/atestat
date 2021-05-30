@@ -49,7 +49,11 @@ namespace atestat
                 //this is true then change the tex 
                 label3.Text = "Logged in success!";
                 ctx.set_logged(logged);
-                ctx.show();
+                UCElev elev = new UCElev();
+                elev.set_context(ctx);
+                elev.Dock = DockStyle.Fill;
+                ctx.get_p().Controls.Add(elev);
+                ctx.get_p().Controls["UCElev"].BringToFront();
             }
             else
             {
@@ -60,6 +64,16 @@ namespace atestat
         }
 
         private void label1_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
         {
 
         }

@@ -44,7 +44,7 @@ namespace atestat
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(494, 500);
+            this.button1.Location = new System.Drawing.Point(119, 373);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 3;
@@ -54,16 +54,19 @@ namespace atestat
             // 
             // panel1
             // 
+            this.panel1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.panel1.Controls.Add(this.label3);
+            this.panel1.Controls.Add(this.button1);
             this.panel1.Controls.Add(this.textBox2);
             this.panel1.Controls.Add(this.label2);
             this.panel1.Controls.Add(this.textBox1);
             this.panel1.Controls.Add(this.label1);
             this.panel1.Controls.Add(this.pictureBox1);
-            this.panel1.Location = new System.Drawing.Point(374, 112);
+            this.panel1.Location = new System.Drawing.Point(310, 45);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(312, 369);
+            this.panel1.Size = new System.Drawing.Size(310, 420);
             this.panel1.TabIndex = 4;
+            this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
             // label3
             // 
@@ -85,7 +88,7 @@ namespace atestat
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(61, 263);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(38, 15);
+            this.label2.Size = new System.Drawing.Size(40, 15);
             this.label2.TabIndex = 3;
             this.label2.Text = "Parola";
             // 
@@ -101,7 +104,7 @@ namespace atestat
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(61, 192);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(38, 15);
+            this.label1.Size = new System.Drawing.Size(60, 15);
             this.label1.TabIndex = 1;
             this.label1.Text = "Username";
             this.label1.Click += new System.EventHandler(this.label1_Click_1);
@@ -115,13 +118,13 @@ namespace atestat
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // UserControl1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.panel1);
-            this.Controls.Add(this.button1);
             this.Name = "UserControl1";
             this.Size = new System.Drawing.Size(1003, 563);
             this.Load += new System.EventHandler(this.UserControl1_Load);

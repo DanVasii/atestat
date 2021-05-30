@@ -29,12 +29,12 @@ namespace atestat
         }
         public int login_user(String name, String pass)
         {
-            String query = "SELECT id FROM elevi where nume = '"+name+"' AND parola = '"+pass+"' ";
+            String query = "SELECT id FROM elevi where username = '" + name + "' AND parola = '"+ pass +"' ";
 
             MySqlDataAdapter da = new MySqlDataAdapter(query, conn);
 
             System.Data.DataSet ds = new DataSet();
-            da.Fill(ds, "test");
+            da.Fill(ds, "elevi");
             DataTable dt = ds.Tables["elevi"];
 
             if (dt.Rows.Count==0)

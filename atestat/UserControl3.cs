@@ -10,7 +10,7 @@ namespace atestat
 {
     public partial class UserControl3 : UserControl
     {
-        int tlpRow = -1;
+        //int tlpRow = -1;
 
         public UserControl3()
         {
@@ -75,6 +75,11 @@ namespace atestat
             //here we show the addclass uc
             splitContainer1.Panel2.Controls["addClass"].BringToFront();
             
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

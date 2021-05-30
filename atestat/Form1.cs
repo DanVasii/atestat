@@ -25,7 +25,8 @@ namespace atestat
         }
         private void Form1_Load(object sender,EventArgs e)
         {
-           
+            c.set(panel1);
+
             UserControl1 login_elev = new UserControl1();
             login_elev.set_context(c);
             login_elev.Dock = DockStyle.Fill;
@@ -56,6 +57,11 @@ namespace atestat
                 var point2 = new Point(293, 228);
                 g.DrawLine(p, point1, point2);
             }
+        }
+
+        private void button_woc2_Click(object sender, EventArgs e)
+        {
+            panel1.Controls["UserControl1"].BringToFront();
         }
     }
 }
