@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <Compile Update="addClass.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="addElev.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="addProf.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="add_anunt.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Button_WOC.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="clasele mele.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Class1.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="login_prof.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="show_cls.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="show_teme.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="tema.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="tema_view.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="UCanunturi.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="UCcatalog2.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="UCclaselemele.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="UCElev.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="UserControl1.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="UserControl2.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="UserControl3.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+  </ItemGroup>
+</Project>
